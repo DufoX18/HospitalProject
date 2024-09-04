@@ -1,0 +1,353 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    width: auto;
+    overflow-x: hidden;
+}
+
+#container {
+    width: auto;
+}
+
+#login{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+
+#navbar {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100px;
+    box-shadow: 0 4px 4px rgba(128, 128, 128, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+#navbar img {
+    height: 80px;
+}
+
+#option:hover {
+    background-color: rgb(43, 194, 194);
+    color: rgb(250, 250, 250);
+}
+
+#items-nav {
+    margin-top: 10px;
+    margin-left: 5%;
+}
+
+.dropdown-menu li {
+    text-align: center;
+    margin-top: 5px;
+    border-bottom: 1px solid #ccc;
+
+}
+
+
+#login {
+    width: 100px;
+}
+
+#li1 {
+    transition: 300ms;
+
+}
+
+#li1:hover {
+    background-color: gray;
+    color: rgb(43, 194, 194);
+}
+
+.modal-dialog {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+
+}
+
+
+#section1 {
+    margin-top: 70px;
+    height: auto;
+}
+
+#section1 h3 {
+    padding-top: 20px;
+}
+
+
+#descripcion1 {
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nosotros {
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+#masinfo {
+    text-decoration: none;
+    background-color: aqua;
+}
+
+#secciones {
+    margin-top: 60px;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.card-custom {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+
+}
+
+#btn {
+    width: 260px;
+}
+
+#mod {
+    font-style: italic;
+    background-color: black;
+    margin-top: 200px;
+}
+
+#carouselExample {
+    margin-top: 100px;
+}
+
+#servicios1 {
+    margin-top: 50px;
+}
+
+#section {
+    margin-top: 80px;
+    text-align: center;
+}
+
+#section1 {
+    margin-top: 130px;
+    text-align: center;
+}
+
+aside {
+    position: fixed;
+    top: 110px;
+}
+
+#toggle-menu {
+    cursor: pointer;
+    border: none;
+    background: none;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+#menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+#menu.active {
+    display: block;
+}
+
+#menu li {
+    padding: 10px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #333;
+}
+
+#menu li a:hover {
+    background-color: #e0e0e0;
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-link {
+    text-decoration: none;
+    background-color: rgb(39, 154, 215);
+    padding-left: 6%;
+    padding-right: 6%;
+    color: white;
+    transition: 300ms;
+}
+
+
+.card-link:hover {
+    background-color: #00344e;
+}
+
+.card a {
+    display: block;
+    width: max-content;
+    background-color: rgb(43, 194, 194);
+    padding: 5px 10px;
+    margin: 10px auto;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+}
+
+
+.card {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card h5 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.card p {
+    text-align: center;
+    font-size: 18px;
+}
+
+#contactenos {
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+#direccion {
+    margin-top: 50px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
+}
+
+#serviciosmedicos {
+    text-align: center;
+}
+
+#serviciosmedicos h3 {
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+#des1 {
+    border-right: 1px solid #b6b6b8;
+    text-align: center;
+
+}
+
+#des2 {
+    text-align: center;
+}
+
+#emergencias {
+    margin-top: 50px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
+
+}
+
+#footer {
+    text-align: center;
+    margin-top: 100px;
+    background: linear-gradient(to right, #010013, #00344e);
+    color: white;
+}
+
+#mapa {
+    margin-top: 4px;
+    text-align: center;
+}
+
+#lista-icons {
+    margin-top: 2%;
+}
+
+#icon {
+    color: white;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+#icon1 {
+    margin-left: 35px;
+    color: white;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+#icon2 {
+    margin-left: 35px;
+    color: white;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+#icon3 {
+    margin-left: 35px;
+    color: white;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+#icon:hover {
+    color: rgb(226, 164, 30);
+}
+
+#icon1:hover {
+    color: blue;/
+}
+
+#icon2:hover {
+    color: rgb(29, 161, 242)
+}
+
+#icon3:hover {
+    color: red;
+}
+
+#contacto {
+    margin-top: 4%;
+}
+
+#clima-columna {
+    margin-top: 3%;
+}
+
+@media (max-width: 387px) {
+    #mapa {
+        width: 250px;
+    }
+}

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital San Rafael Arcángel</title>
+    <link rel="stylesheet" href="./style/salud.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="container">
+
+        <div id="navbar">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a href="index.html"><img src="img/./H.-San-Rafael-Arcangel-1.jpg" alt="" width="270"
+                            height="100"></a>
+            </nav>
+        </div>
+
+        <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="contactModalLabel">Contactos</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Teléfonos (506) 2690-5500 | 2666-1717
+                            contacto@hcsanrafael.com
+                            <br>
+                            Av. Central, Calle 3, Liberia, Guanacaste, Costa Rica
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="contactModalLabel">¿Cómo deseas registrarte?</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-body">
+                            <a href="./login.html" class="btn btn-primary bg-dark" role="button" id="btn">Registrarse
+                                como Administrador</a>
+                            <br>
+                            <br>
+                            <a href="pagina_de_login_paciente.html" class="btn btn-primary bg-dark" role="button"
+                                id="btn">Registrarse como Recepcionista</a>
+                            <br>
+                            <br>
+                            <a href="pagina_de_login_usuario.html" class="btn btn-primary bg-dark" role="button"
+                                id="btn">Registrarse como Médico</a>
+                            <br>
+                            <br>
+                            <a href="pagina_de_login_usuario.html" class="btn btn-primary bg-dark" role="button"
+                                id="btn">Registrarse como Paciente</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="aboutModal" tabindex="-1" aria-labelledby="aboutModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="aboutModalLabel">Nosotros</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>El Hospital San Rafael Arcángel es una empresa
+                            sensible orientada hacia las necesidades de nuestros
+                            pacientes y comprometida a la promoción de la salud
+                            integral en la provincia de Guanacaste actuando bajo el
+                            cumplimiento de nuestros valores: Seguridad,
+                            compromiso, respeto, sensibilidad e innovación.
+                            Nuestras modernas instalaciones albergan consulta a
+                            más de 55 médicos especialistas con condiciones de
+                            privacidad y confort así como con todo el equipo e
+                            instrumental requerido para la atención correcta del
+                            paciente ambulatorio con diferentes necesidades.
+                            Áreas de cirugía con modernos quirófanos y amplias
+                            áreas de recuperación.
+                            <br>
+                            La seguridad de nuestros
+                            pacientes es la máxima preocupación que mantenemos en el área quirúrgica, las cuales
+                            cuentan con un sistema de aire acondicionado que garantiza una purificación mayor al
+                            99%.
+                            Habitaciones individuales que le ofrecen todas las comodidades para la hospitalización
+                            de pacientes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section id="section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <h2>¿Por qué es necesario centrarse en la educación para la salud y el bienestar?</h2>
+                        <p id="descripcion1">La calidad de la educación que reciben los niños y jóvenes está
+                            estrechamente
+                            ligada a su salud,
+                            siendo una condición fundamental para su bienestar integral. Asimismo, aquellos que
+                            disfrutan de
+                            una buena salud están en mejores condiciones para absorber conocimientos y desarrollarse
+                            plenamente.
+
+                            A nivel global, los estudiantes enfrentan una serie de desafíos que obstaculizan su
+                            educación,
+                            limitando así sus oportunidades y perspectivas futuras. Entre estos desafíos, muchos están
+                            relacionados con su salud y bienestar. Se estima que aproximadamente 246 millones de
+                            estudiantes
+                            son víctimas de violencia dentro y fuera del entorno escolar cada año, mientras que 73
+                            millones
+                            de niños viven en condiciones de pobreza extrema, inseguridad alimentaria y desnutrición.
+                            Las
+                            complicaciones asociadas al embarazo son la principal causa de mortalidad entre las niñas de
+                            15
+                            a 19 años, y la pandemia de COVID-19 ha puesto de relieve las necesidades no satisfechas en
+                            cuanto a la salud mental de los estudiantes.
+
+                            El Hospital San Rafael Arcángel se dedica a promover la salud física y mental, así como el
+                            bienestar de los estudiantes. Al abordar obstáculos al aprendizaje relacionados con la
+                            salud,
+                            como la desigualdad de género, el VIH y otras enfermedades de transmisión sexual, los
+                            embarazos
+                            tempranos e indeseados, la violencia, la discriminación y la malnutrición, el Hospital San
+                            Rafael Arcángel, en colaboración con gobiernos y sistemas educativos, trabaja para mitigar
+                            las
+                            amenazas significativas que enfrentan los estudiantes en términos de bienestar y
+                            finalización de
+                            sus estudios.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section2">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <h2 id="titulo2">Importancia de la Salud y el Bienestar para los Estudiantes</h2>
+                        <p id="descripcion2">La relación entre la educación, la salud y el bienestar es innegable. La
+                            educación
+                            promueve el desarrollo de habilidades, valores y comportamientos que permiten a los
+                            estudiantes
+                            llevar una vida saludable y plena, tomar decisiones informadas y establecer relaciones
+                            positivas con
+                            su entorno. La mala salud puede tener un impacto negativo en la asistencia escolar y el
+                            rendimiento
+                            académico. Por lo tanto, las escuelas que fomentan la salud y la seguridad para todos los
+                            niños y
+                            jóvenes son fundamentales para el proceso educativo.
+
+                            Las estadísticas revelan que un mayor nivel de educación entre las madres mejora la
+                            nutrición de los
+                            niños, aumenta las tasas de vacunación y reduce las muertes infantiles evitables, la
+                            mortalidad
+                            materna y las infecciones por VIH. Por ejemplo, si todas las niñas completaran la educación
+                            primaria, la mortalidad materna se reduciría en dos tercios, salvando así 98.000 vidas.
+                            Además, si
+                            todas las niñas completaran la educación secundaria, habría dos tercios menos de matrimonios
+                            infantiles y un aumento en el uso de anticonceptivos modernos.
+
+                            Para el Hospital San Rafael Arcángel, la educación para la salud y el bienestar implica la
+                            promoción
+                            de sistemas educativos resilientes que fomenten la salud e integren el bienestar escolar
+                            como parte
+                            esencial de su misión diaria. Solo de esta manera, nuestros estudiantes estarán preparados
+                            para
+                            prosperar, aprender y construir futuros saludables, pacíficos y sostenibles para todos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section3">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <h2 id="titulo3">La Importancia de la Educación Integral en Sexualidad para el Bienestar de los
+                            Estudiantes</h2>
+                        <p id="descripcion3">La Educación Integral en Sexualidad (EIS) es esencial para promover la
+                            igualdad de género, relaciones saludables y salud sexual y reproductiva entre los
+                            estudiantes. Proporciona conocimientos, valores y habilidades necesarias para tomar
+                            decisiones informadas sobre salud y bienestar, promoviendo el respeto a los derechos humanos
+                            y la igualdad de género.
+
+                            La falta de educación en salud sexual y reproductiva puede poner en riesgo la educación y el
+                            futuro de los estudiantes. La EIS ayuda a prevenir embarazos precoces, absentismo escolar y
+                            abandono temprano, especialmente entre las niñas.
+
+                            El Hospital San Rafael Arcángel promueve la EIS como parte de su compromiso con la salud y
+                            el bienestar de los jóvenes. A través de programas educativos y de prevención, el hospital
+                            trabaja para reducir riesgos como nuevas infecciones por VIH, embarazos no deseados y
+                            violencia de género, beneficiando a la comunidad estudiantil y contribuyendo a futuros más
+                            saludables y equitativos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section4">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <h2 id="titulo4">La Reconstrucción de Escuelas Saludables y Resilientes: Una Prioridad del
+                            Hospital San Rafael Arcángel
+                        </h2>
+                        <p id="descripcion4">Durante la pandemia de COVID-19, que impactó la educación de millones de
+                            estudiantes en todo el mundo, el Hospital San Rafael Arcángel comprendió la importancia
+                            crítica de las escuelas como refugios para la salud y el bienestar de los educandos.
+                            Socialmente, las escuelas brindan servicios educativos y de atención médica esenciales, como
+                            alimentación, detección de abusos o violencia, conexión con servicios de salud, fomento de
+                            relaciones sociales y promoción de la actividad física. Sin esta red de apoyo, muchos
+                            estudiantes quedaron expuestos a riesgos.
+
+                            Durante la pandemia, se observó un aumento en los matrimonios y embarazos precoces y no
+                            deseados entre adolescentes, lo que resultó en un aumento del abandono escolar,
+                            especialmente entre las niñas. Esta situación subraya la interconexión entre la educación y
+                            la salud, destacando la urgente necesidad de reconstruir sistemas educativos resilientes. El
+                            Hospital San Rafael Arcángel se compromete a trabajar en colaboración con diversos sectores
+                            para reconstruir escuelas que prevengan, se preparen y respondan a crisis sanitarias,
+                            garantizando así el bienestar integral de las generaciones futuras.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div id="lista-icons">
+                            <h5>VISITA NUESTROS SITIOS WEB</h5>
+                            <a href="https://www.instagram.com/hospitalsanrafaelarcangel/" target="_blank"><i
+                                    class="bi bi-instagram" style="font-size: 40px;" id="icon"></i></a>
+                            <a href="https://www.facebook.com/HospitalSanRafaelArcangel/about/" target="_blank"><i
+                                    class="bi bi-facebook" style="font-size: 40px;" id="icon1"></i></a>
+                            <a href="https://twitter.com/" target="_blank"><i class="bi bi-twitter"
+                                    style="font-size: 40px;" id="icon2"></i></a>
+                            <a href="https://www.youtube.com/@hospitalclinicosanrafaelar5518" target="_blank"><i
+                                    class="bi bi-youtube" style="font-size: 40px;" id="icon3"></i></a>
+                        </div>
+                        <div id="contacto">
+                            <h5>CONTÁCTENOS</h5>
+                            <h6>+506 2690-5550</h6>
+                            <h6>+506 2666-1717</h6>
+                            <h6>+506 87324698</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3921.349279875555!2d-85.43831892546201!3d10.629950189510087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f7562d5114149bf%3A0x55742c49bea22e6d!2sHospital%20San%20Rafael%20Arc%C3%A1ngel!5e0!3m2!1ses-419!2scr!4v1710872484091!5m2!1ses-419!2scr"
+                            width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade" id="mapa">
+                        </iframe>
+                    </div>
+                    <div class="col-md-4" id="clima-columna">
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="./js/index.js"></script>
+</body>
+
+</html>

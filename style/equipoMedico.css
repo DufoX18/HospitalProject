@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%; 
+    width: auto; 
+    overflow-x: hidden; 
+}
+
+
+#container {
+    width: auto;
+}
+
+#navbar {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100px;
+    box-shadow: 0 4px 4px rgba(128, 128, 128, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+#navbar img {
+    height: 80px;
+}
+
+#footer {
+    text-align: center;
+    margin-top: 100px;
+    background: linear-gradient(to right, #010013, #00344e);
+    color: white;
+}
+
+#mapa {
+    margin-top: 4px;
+    text-align: center;
+}
+
+#lista-icons {
+    margin-top: 2%;
+}
+
+#icon {
+    color: white;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+#icon1 {
+    margin-left: 35px;
+    color: white;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+#icon2 {
+    margin-left: 35px;
+    color: white;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+#icon3 {
+    margin-left: 35px;
+    color: white;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+#icon:hover {
+    color: rgb(226, 164, 30);
+}
+
+#icon1:hover {
+    color: blue;/
+}
+
+#icon2:hover {
+    color: rgb(29, 161, 242)
+}
+
+#icon3:hover {
+    color: red;
+}
+
+#contacto {
+    margin-top: 4%;
+}
+
+#clima-columna {
+    margin-top: 3%;
+}
+
+#Informacion{
+    margin-top: 10%;
+    
+}
+#Informacion .card{
+    background-color: rgb(59, 146, 146);
+    height: 100%;
+    max-width: 500px;
+    margin-left: 50px;
+}
+.card-body {
+    height: 200px; 
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+.col:last-child img {
+  
+height: 75%;
+}
+#Informacion .card :hover{
+    transform: scale(1.05); 
+    transition: transform 0.3s ease;
+    background-color: rgb(255, 228, 228);
+    color:rgb(7, 119, 119) ;
+}
+#Informacion h3{
+    text-align: center;
+    color: rgb(7, 119, 119);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 13%;
+    margin-bottom: 5%;
+}
+#Informacion p{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#Informacion h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+@media (max-width: 430px) {
+    #Informacion h3{ 
+        margin-top: 30%;
+        
+}
+}

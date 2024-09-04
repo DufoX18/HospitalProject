@@ -1,0 +1,231 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%; 
+    width: auto; 
+    overflow-x: hidden; 
+}
+
+
+#container {
+    width: auto;
+}
+
+#navbar {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: auto;
+    box-shadow: 0 4px 4px rgba(128, 128, 128, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;    
+    right: 0;
+    z-index: 1000;
+}
+
+
+#items-nav {
+    margin-top: 10px;
+    margin-left: 5%;
+}
+
+.dropdown-menu li {
+    text-align: center;
+    margin-top: 5px;
+    border-bottom: 1px solid #ccc;
+
+}
+
+#login {
+    width: 100px;
+}
+
+#li1 {
+    transition: 300ms;
+
+}
+
+#li1:hover {
+    background-color: gray;
+    color: rgb(43, 194, 194);
+}
+
+.modal-dialog {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+
+}
+
+#btn {
+    width: 260px;
+}
+
+#mod {
+    font-style: italic;
+    background-color: black;
+    margin-top: 200px;
+}
+
+#carouselExample {
+    margin-top: 117px;
+}
+
+#section {
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+aside {
+    position: fixed;
+    top: 110px;
+}
+
+#toggle-menu {
+    cursor: pointer;
+    border: none;
+    background: none;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+#menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+#menu.active {
+    display: block;
+}
+
+#menu li {
+    padding: 10px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #333;
+}
+
+#menu li a:hover {
+    background-color: #e0e0e0;
+}
+
+.card{
+    transition: transform 0.3s ease;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.card-link{
+    text-decoration: none;
+    background-color: rgb(39, 154, 215);
+    padding-left: 6%;
+    padding-right: 6%;
+    color: white;
+    transition: 300ms;
+}
+
+.card-link:hover{
+    background-color: #00344e;
+}
+
+#footer {
+    text-align: center;
+    margin-top: 100px;
+    background: linear-gradient(to right, #010013, #00344e);
+    color: white;
+}
+#mapa {
+    margin-top: 4px;
+    text-align: center;
+}
+
+#lista-icons{
+    margin-top: 2%;
+}
+
+#icon{
+    color: white; 
+    text-decoration: none; 
+    transition: 300ms;
+}
+#icon1{
+    margin-left: 35px;
+    color: white; 
+    text-decoration: none; 
+    transition: 300ms;
+}
+
+#icon2{
+    margin-left: 35px;
+    color: white; 
+    text-decoration: none; 
+    transition: 300ms;
+}
+
+#icon3{
+    margin-left: 35px;
+    color: white; 
+    text-decoration: none; 
+    transition: 300ms;
+}
+
+#icon:hover {
+    color: rgb(226, 164, 30); 
+}
+
+#icon1:hover {
+    color: blue; /
+
+}
+
+#icon2:hover {
+    color: rgb(29, 161, 242) 
+  
+}
+
+#icon3:hover {
+    color: red;
+}
+
+#contacto{
+    margin-top: 4%;
+}
+
+#clima-columna{
+    margin-top: 3%;
+}
+
+#cuerpo{
+    margin-top: 170px;
+}
+
+#imagenes{
+    margin-top: 50px;
+    text-align: center;
+}
+#info-img{
+    text-align: center;
+}
+
+@media (max-width: 387px){
+    #mapa{
+        width: 250px;
+    }
+}

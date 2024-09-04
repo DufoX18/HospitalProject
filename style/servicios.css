@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+#navbar {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100px;
+    box-shadow: 0 4px 4px rgba(128, 128, 128, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+#navbar img {
+    height: 80px;
+}
+
+#items-nav {
+    margin-top: 10px;
+    margin-left: 5%;
+}
+
+.colum-2 {
+    border: solid 3px red;
+}
+
+section {
+    margin-top: 100px;
+}
+
+.col-2 {
+    border: solid 1px red;
+}
+
+.col-2 {
+    border: solid 1px green;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    border-bottom: solid 1px #333;
+    margin: 50px;
+}
+
+p {
+    text-align: center;
+}
+
+#lista-icons h5 {
+    margin-top: 35px;
+}
+
+iframe {
+    padding-top: 30px;
+}
+
+.imagen:hover {
+    transform: scale(1.1);
+}
+
+.imagen {
+    margin-top: 20px;
+    margin-left: 15px;
+    transition: transform 0.5s ease;
+}
+
+.col-md-4 h4 {
+    text-align: center;
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+section h5 {
+    text-align: center;
+    margin: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.col-md-3 {
+    text-align: center;
+    background-color: #e3e3e3;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid rgb(28, 172, 198);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer {
+    text-align: center;
+    margin-top: 100px;
+    background: linear-gradient(to right, #010013, #00344e);
+    color: white;
+}
+
+#mapa {
+    margin-top: 4px;
+    text-align: center;
+}
+
+#lista-icons {
+    margin-top: 2%;
+}
+
+#icon {
+    color: white;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+#icon1 {
+    margin-left: 35px;
+    color: white;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+#icon2 {
+    margin-left: 35px;
+    color: white;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+#icon3 {
+    margin-left: 35px;
+    color: white;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+#icon:hover {
+    color: rgb(226, 164, 30);
+}
+
+#icon1:hover {
+    color: blue;/
+}
+
+#icon2:hover {
+    color: rgb(29, 161, 242)
+}
+
+#icon3:hover {
+    color: red;
+}
+
+#contacto {
+    margin-top: 4%;
+}
+
+#clima-columna {
+    margin-top: 3%;
+}

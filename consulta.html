@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta</title>
+    <link rel="stylesheet" href="style/citas.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="navbar">
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <a href="index.html"><img src="img/./H.-San-Rafael-Arcangel-1.jpg" alt="" width="270"
+                            height="100"></a>
+                </div>
+            </nav>
+        </div>
+
+
+
+        <form id="Formulario" class="row justify-content-center" action="tu-servidor.php" method="POST">
+            <div class="col-md-6">
+                <h4 class="text-center">Consulta Médica</h4>
+                <br>
+                <div class="row g-3 needs-validation" novalidate>
+                    <div class="col-md-12">
+                        <label for="nombre-paciente" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre-consulta" value="" required
+                            placeholder="Escribe tú Nombre">
+                        <div class="valid-feedback">
+                            Por Favor ingresar el Nombre
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="apellidos-paciente" class="form-label">Apellidos</label>
+                        <input type="text" class="form-control" id="apellidos-consulta" value="" required
+                            placeholder="Escribe tus Apellidos">
+                        <div class="valid-feedback">
+                            Por Favor ingresar los apellidos
+                        </div>
+                    </div>
+                   
+                    <div class="col-md-12">
+                        <label for="identificacion-paciente" class="form-label">Número de identificación</label>
+                        <input type="text" class="form-control" id="identificacion-consulta" required
+                            placeholder="Escribe tú identificación">
+                        <div class="invalid-feedback">
+                            Por Favor ingresar la identificación
+                        </div>
+                    </div>
+                    <br>
+                    <div class="col-md-12">
+                        <label for="identificacion-paciente" class="form-label">Peso</label>
+                        <input type="text" class="form-control" id="peso-consulta" required
+                            placeholder="Escribe el peso">
+                        <div class="invalid-feedback">
+                            Por Favor ingresar el peso
+                        </div>
+                    </div>
+                    <br>
+                    <div class="col-md-12">
+                        <label for="identificacion-paciente" class="form-label">Altura</label>
+                        <input type="text" class="form-control" id="altura-consulta" required
+                            placeholder="Escribe la altura">
+                        <div class="invalid-feedback">
+                            Por Favor ingresar la altura
+                        </div>
+                    </div>
+                    <br>
+                    <div class="col-md-12">
+                        <label for="identificacion-paciente" class="form-label">Presión</label>
+                        <input type="text" class="form-control" id="presion-consulta" required
+                            placeholder="Escribe la presión">
+                        <div class="invalid-feedback">
+                            Por Favor ingresar la presión
+                        </div>
+                    </div>
+                    
+                </div>
+                <br>
+
+                <div class="col-md-12">
+                    <label for="enfermedades-paciente" class="form-label">Sintomas</label>
+                    <textarea class="form-control" id="sintomas-consulta" required placeholder=""></textarea>
+                    <div class="invalid-feedback">
+                        Por favor, ingrese los sintomas.
+                    </div>
+                </div>
+                <br>
+
+                <div class="col-md-12">
+                    <label for="telefono-paciente" class="form-label">Examen Orina</label>
+                    <select id="seleccionar-consulta" class="form-select" required>
+                    
+                        <option value="No">No</option>
+                        <option value="Si">Si</option>
+                     
+                    </select>
+                </div>
+                <br>
+                <div class="col-md-12">
+                    <div class="col-md-12">
+                        <label for="telefono-paciente" class="form-label">Examen Sangre</label>
+                        <select id="seleccionar-consulta2" class="form-select" required>
+                        
+                            <option value="No">No</option>
+                            <option value="Si">Si</option>
+                         
+                        </select>
+                    </div>
+                        <div class="col-12 d-flex justify-content-center">
+                            <a href="#" class="btn mt-4" id="btn-consulta">Agendar</a> 
+                    </div>
+                </div>
+
+        </form>
+    </div>
+
+
+
+    <script src="./js/consultas.js"></script>
+
+
+</body>
+
+</html>
